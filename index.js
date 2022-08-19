@@ -19,15 +19,6 @@ function moveBackground(event) {
   
 }
 
-
-
-
-
-
-
-
-
-
 function toggleContrast() {
     contrastToggle = !contrastToggle;
     if (contrastToggle) {
@@ -37,10 +28,6 @@ function toggleContrast() {
         document.body.classList.remove("dark-theme")
     }
 }
-
-
-
-
 
 function contact(event) {
     event.preventDefault();
